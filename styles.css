@@ -21,8 +21,8 @@ body {
 	background-size: contain;
 }
 
-/* header {
-} */
+header {
+}
 
 nav {
 	display: flex;
@@ -111,8 +111,9 @@ nav {
 }
 
 #button {
-	
+	background-color: white;
 	width: 100%;
+	height: 10%;
 	position: absolute;
 	bottom: 0;
 	display: flex;
@@ -152,10 +153,10 @@ nav {
 
 /* PLAN PAGE */
 
- #planContainer {
+#planContainer {
 	width: 100%;
 	display: none;
-} 
+}
 
 #planContent {
 	width: 90%;
@@ -181,7 +182,7 @@ nav {
 	width: 90%;
 	-webkit-transition: .4s;
   	transition: .4s
-} 
+}
 
 .plan-detail {
 	display: flex;
@@ -193,12 +194,12 @@ nav {
 	color: hsl(213, 96%, 18%);
 	font-weight: 700;
 	font-size: 5vw;
-} 
+}
 
- .plan-price {
+.plan-price {
 	color: hsl(231, 11%, 63%);
 	font-weight: 500;
-} 
+}
 
 .free {
 	color: hsl(213, 96%, 18%);
@@ -222,9 +223,9 @@ nav {
 .monthly{
 	font-weight: 700;
 	color: hsl(213, 96%, 18%);
-} 
+}
 
- .yearly {
+.yearly {
 	font-weight: 700;
 	color: hsl(231, 11%, 63%);
 }
@@ -240,7 +241,7 @@ nav {
   opacity: 0;
   width: 0;
   height: 0;
-} 
+}
 
 .slider {
   position: absolute;
@@ -266,7 +267,7 @@ nav {
   -webkit-transition: .4s;
   transition: .4s;
   border-radius: 50%;
-} 
+}
 
 #switchOn:focus + .slider {
   box-shadow: 0 0 1px #2196F3;
@@ -280,7 +281,7 @@ nav {
 
 /* ADD PAGE */
 
- #addContainer {
+#addContainer {
 	width: 100%;
 	display: none;
 }
@@ -334,11 +335,11 @@ label[for="online"], label[for="storage"], label[for="custom"]{
 .addChoice input[type="checkbox"]{
 	accent-color: hsl(243, 100%, 62%);
 	width: 20px;
-} */
+}
 
 /* FINISHING PAGE */
 
- #finishContainer {
+#finishContainer {
 	width: 100%;
 	display: none;
 }
@@ -413,7 +414,7 @@ label[for="online"], label[for="storage"], label[for="custom"]{
 	border-color: transparent;
 	border-radius: 5px;
 	font-weight: 700;
-} 
+}
 
 /*THANK YOU PAGE*/
 
